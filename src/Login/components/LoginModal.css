@@ -1,0 +1,104 @@
+
+.loginModal{
+    width: 1000px;
+    height:600px;
+    align-content: center;
+    background-color: #FAFAFA;
+    top:50%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #F4C53D;
+    border-width: 2px;
+    align-items: center
+}
+#lockbox_logo{
+    content: url('../../resources/PNGs/lockbox_logo.png');
+    height:50;
+    width: 200px;
+    margin-top:10px;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input[type=text]{
+    background-color: #EFEFEF;
+    background-image: url('../../resources/PNGs/649910_user_512x512.png');
+    background-size: 20px 20px;
+    background-position: 10px 15px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    height: 52px;
+    width:319px;
+    border:none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:90px;
+    display: block;
+    text-align: left;
+    font-size:20px;
+    -webkit-tap-highlight-color: #EFEFEF
+}
+#password{
+    margin-top:40px;
+}
+button{
+    background-color: #F4C53D;
+    position: relative;
+    width:300px;
+    height:56px;
+    border: none;
+    border-radius:30px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    color:#888585;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+button:after {
+    content: "";
+    background: rgba(255, 230, 156, 0.801);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+#bulldog{
+    content: url('../../resources/PNGs/bowiebulldog.png');
+    height:40;
+    width: 150px;
+    margin-top:60px;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

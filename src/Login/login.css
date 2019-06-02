@@ -1,0 +1,8 @@
+
+html{
+    background: url('../resources/backgrounds/lockbox_background.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    align-content: center;
+}
