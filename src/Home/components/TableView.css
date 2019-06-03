@@ -1,0 +1,9 @@
+.timeline-wrapper{
+    margin-top: 5%;
+    margin-left: 18%;
+    height: 900px;
+}
+.vis-item {
+    border-color: orange;
+    background-color: yellow;
+  }

@@ -5,8 +5,8 @@ import LoginModal from './components/LoginModal'
 export class LoginComponent extends Component{
     render(){
         return (
-            <body className='main'>
-                <div>
+            <body id='main' background='../resources/backgrounds/lockbox_background.jpg' >
+                <div >
                     <LoginModal/>
                 </div>
             </body>
