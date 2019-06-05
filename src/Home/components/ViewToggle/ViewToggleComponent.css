@@ -1,0 +1,51 @@
+#viewToggleWrapper{
+    width: 300px;
+    height: 182px;
+    background: linear-gradient(180.09deg, #F4C53D 0.15%, rgba(244, 197, 61, 0) 171.06%);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    animation: fadein 1s;
+}
+#viewToggleCard{
+    width: 280px;
+    height: 173px;
+    position: absolute;
+    top:4px;
+    left:10px;
+    background: #FAFAFA;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    animation: fadein 1s;
+}
+#viewToggleCard:hover{
+    margin-top:-5px;
+    -webkit-transition: margin 0.2s ease-in-out;
+    -moz-transition: margin 0.2s ease-in-out;
+    -o-transition: margin 0.2s ease-in-out;
+    transition: margin 0.2s ease-in-out;
+}
+
+
+#homePageButton{
+    background-color:#FFFFFF;
+    width: 214px;
+    height: 36px;
+    font-size: 16px;
+    animation: fadein 1s;
+}
+#homePageButton:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#list_icon{
+    content: url('../../../resources/PNGs/list_icon.png');
+    margin-top:30px;
+    margin:auto;
+    height:100px;
+    width:100px;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
